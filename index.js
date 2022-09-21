@@ -44,3 +44,7 @@ number.forEach((element) => {
     console.log(element)
 });
 nombre(1, "rafael");
+
+
+
+
