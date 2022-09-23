@@ -38,9 +38,10 @@ console.log(MayorAMeno);
 
 /** filtros en arreglos*/
 
-let users = [{name: 'rfalconi', email: 'r@g.com'}, {name: 'kperez', email: 'k@gm.com'}];
+let users = [{name: 'rfalconi', email: 'r@g.com',age:22}, {name: 'kperez', email: 'k@gm.com',age:33},{name: 'jchango', email: 'j@gm.com',age:33}];
+
 let userFilter = users.filter(user => user.email === 'r@g.com' && user.name=='rfalconi');
 console.log(userFilter);
 console.log(numbers.filter(number=> number%2!==0));
 console.log(numbers.filter(number=> number%2==0));
-
+console.log(users.filter(user=>user.name.includes('a')));
