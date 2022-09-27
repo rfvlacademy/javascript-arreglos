@@ -45,3 +45,6 @@ console.log(userFilter);
 console.log(numbers.filter(number=> number%2!==0));
 console.log(numbers.filter(number=> number%2==0));
 console.log(users.filter(user=>user.name.includes('a')));
+console.log('--------')
+console.log(users.filter(user=>user.age%2!==0));
+console.log(users.filter(user=>user.name.includes('n') && user.email.includes('gm')));
