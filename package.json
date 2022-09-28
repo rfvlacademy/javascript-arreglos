@@ -8,7 +8,8 @@
     "start": "node index.js",
     "clase": "node clase2.js",
     "clase3": "node clase3.js",
-    "main": "node ./ejercios/main.js"
+    "main": "node ./ejercios/main.js",
+    "main": "node ./ejercios/promesas.js"
   },
   "author": "Rafael",
   "license": "ISC"
