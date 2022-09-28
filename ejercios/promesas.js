@@ -1,6 +1,6 @@
 const myPromise = new Promise((resolve, reject) => {
     setTimeout(() => {
-        resolve([1,5,8,9])
+        resolve([15,7,10,9])
     }, 300);
 });
 const myPromise2 = new Promise((resolve, reject) => {
